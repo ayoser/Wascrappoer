@@ -11,7 +11,7 @@ const link = $(element)
 const data = {"links":link} 
 list.push(data)
 })
-console.log(list)
+return list
 });}
 module.exports = {
 wamod
