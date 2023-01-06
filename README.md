@@ -1,6 +1,6 @@
-##### Get Wa Mod Derect Down Link Fron https://www.fouadmods.net/
+# WaMod Downloader From fouadmods.net
 
-- Owner: [Vihanga-YT](https://github.com/vihangayt0/)
+- Author : [Black Amda](https://github.com/BlackAmda/)
 
 ***
 
