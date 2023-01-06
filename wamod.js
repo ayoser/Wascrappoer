@@ -1,5 +1,6 @@
 const axios = require('axios')
 const cheerio = require('cheerio')
+async function wamod() {
 const list = []
 axios.get("https://fmmods.com/download-center/mega.php").then(urlResponse => {
 const $ = cheerio.load(urlResponse.data)
@@ -10,5 +11,8 @@ const link = $(element)
 const data = {"links":link} 
 list.push(data)
 })
-return list
-});
+console.log(list)
+});}
+module.exports = {
+wamod
+}
