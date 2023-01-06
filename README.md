@@ -1,6 +1,6 @@
 # WaMod Downloader From fouadmods.net
 
-- Author : [Black Amda](https://github.com/BlackAmda/)
+- Author : [Vihanga-YT](https://github.com/vihangayt0)
 
 ***
 
