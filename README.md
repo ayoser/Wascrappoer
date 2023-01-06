@@ -4,16 +4,16 @@
 
 ***
 
-## Installation 
+## Download Fouad-Wa Scraper
 ```sh
-npm i @vihngayt/FouadWA-Scraper
+[Fouad-Wa Scraper](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/vihangayt0/FouadWA-Scraper/blob/main/wamod.js)
 ```
 
 ***
 
 ## Example
 ```ts
-let { wamod } = require('@vihngayt/FouadWA-Scraper')
+let { wamod } = require('./wamod')
 
 console.log(wamod)
 ```
