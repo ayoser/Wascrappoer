@@ -5,9 +5,8 @@
 ***
 
 ## Download Fouad-Wa Scraper
-```sh
+
 [Fouad-Wa Scraper](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/vihangayt0/FouadWA-Scraper/blob/main/wamod.js)
-```
 
 ***
 
