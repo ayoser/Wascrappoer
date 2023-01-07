@@ -1,9 +1,3 @@
-const axios = require('axios')
-const express = require('express');
-const cheerio = require('cheerio')
-const app = express()
-const port = process.env.PORT || 3000;
-app.get('/', async (req, res) => {
 const list = []
 axios.get("https://fmmods.com/download-center/mega.php").then(urlResponse => {
 const $ = cheerio.load(urlResponse.data)
@@ -14,6 +8,5 @@ const link = $(element)
 const data = {"links":link} 
 list.push(data)
 })
-res.send(list)
-});})
-app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`))
+console.log(list)
+});
