@@ -18,20 +18,24 @@ console.log(wamod)
 ```
 ***
 ## OutPut
-```ts
-[
-  {
-    links: 'https://apk-download.co/V952F1/Fouad.Whats9.52F_By.FouadMODS.apk'
-  },
-  {
-    links: 'https://apk-download.co/V952F1/FMWA9.52F_By.FouadMODS.apk'
-  },
-  {
-    links: 'https://apk-download.co/V952F1/GBWA9.52F_By.FouadMODS.apk'
-  },
-  {
-    links: 'https://apk-download.co/V952F1/YOWA9.52F_By.FouadMODS.apk'
-  }
-]
+```json
+{
+    "com_whatsapp": {
+        "name":"Fouad_Whats9.52F_By.FouadMODS.apk",
+        "link":"https://apk-download.co/V952F1/Fouad.Whats9.52F_By.FouadMODS.apk"
+    },
+    "com_fmwhatsapp":{
+        "name":"FMWA9_52F_By.FouadMODS.apk",
+        "link":"https://apk-download.co/V952F1/FMWA9.52F_By.FouadMODS.apk"
+    },
+    "com_gbwhatsapp":{
+        "name":"GBWA9_52F_By.FouadMODS.apk",
+        "link":"https://apk-download.co/V952F1/GBWA9.52F_By.FouadMODS.apk"
+    },
+    "com_yowhatsapp":{
+        "name":"YOWA9_52F_By.FouadMODS.apk",
+        "link":"https://apk-download.co/V952F1/YOWA9.52F_By.FouadMODS.apk"
+    }
+}
 ```
 ***
