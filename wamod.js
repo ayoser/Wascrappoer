@@ -1,6 +1,6 @@
 const axios = require('axios')
 const cheerio = require('cheerio')
-
+async function mods() {
 const list = []
 axios.get("https://fmmods.com/download-center/mega.php").then(urlResponse => {
     const $ = cheerio.load(urlResponse.data)
@@ -19,4 +19,6 @@ axios.get("https://fmmods.com/download-center/mega.php").then(urlResponse => {
     
     console.log(result);
     return result;
-});
+})}
+
+module.exports = { mods }
