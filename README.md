@@ -11,10 +11,11 @@
 ***
 
 ## Example
-```ts
-let { wamod } = require('./wamod')
+```js
+const {mods} = require('fouadwa-scraper')
 
-console.log(wamod)
+let getmod = await mods()
+console.log(getmod)
 ```
 ***
 ## OutPut
