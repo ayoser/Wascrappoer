@@ -24,7 +24,7 @@
     },
     "author": "vihangayt0 <vihangamd1@gmail.com> (https://github.com/vihangayt0)",
     "publishConfig": {
-        "registry": "vihangayt0:registry=https://npm.pkg.github.com"
+        "@vihangayt0:registry": "https://registry.npmjs.org/"
     },
     "npm_publisher": "BlackAmda",
     "license": "ISC",
