@@ -1,5 +1,5 @@
 {
-    "name": "fouadwa-scraper",
+    "name": "@vihangayt0/fouadwa-scraper",
     "version": "1.0.0",
     "description": "Get latest Fouad Whatsapp APKs link.",
     "main": "wamod.js",
@@ -24,7 +24,7 @@
     },
     "author": "vihangayt0 <vihangamd1@gmail.com> (https://github.com/vihangayt0)",
     "publishConfig": {
-        "@vihangayt0:registry": "https://registry.npmjs.org/"
+        "registry": "https://npm.pkg.github.com"
     },
     "npm_publisher": "BlackAmda",
     "license": "ISC",
