@@ -2,6 +2,7 @@ const axios = require('axios')
 const cheerio = require('cheerio')
 
 async function mods() {
+	return new Promise((resolve, reject) => {
     const list = []
     axios.get("https://fmmods.com/download-center/mega.php").then(urlResponse => {
         const $ = cheerio.load(urlResponse.data)
@@ -18,8 +19,8 @@ async function mods() {
         result.com_gbwhatsapp = list && list[2] ? list[2] : undefined
         result.com_yowhatsapp = list && list[3] ? list[3] : undefined
         
-        console.log(result);
-        return result;
+        
+        resolve(result)})
     })
 }
 
