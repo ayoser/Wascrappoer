@@ -1,6 +1,6 @@
 {
     "name": "@vihangayt0/fouadwa-scraper",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Get latest Fouad Whatsapp APKs link.",
     "main": "wamod.js",
     "scripts": {
