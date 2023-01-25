@@ -1,12 +1,6 @@
-# WaMod Downloader From fouadmods.net
+## Get Direct Down Link Of Fm-Mods From fouadmods.net
 
 - Author : [Vihanga-YT](https://github.com/vihangayt0)
-
-***
-
-## Download Fouad-Wa Scraper
-
-[Fouad-Wa Scraper](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/vihangayt0/FouadWA-Scraper/blob/main/wamod.js)
 
 ***
 
