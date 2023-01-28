@@ -20,7 +20,8 @@ async function mods() {
         result.com_yowhatsapp = list && list[3] ? list[3] : undefined
         
         
-        resolve(result)})
+        resolve(result);
+      })
     })
 }
 
